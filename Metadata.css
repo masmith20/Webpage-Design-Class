@@ -13,8 +13,30 @@ Intro to CSS Assignment
 
 /* Put body attributes here */
 
-body { 
+body *{ 
 		background-color: teal;
 		color: white;
-}
+		font-family: "Verdana","sans-serif", "Courier New"
+		
+		}
+		
+h1 { font-family: "Sans-serif","Arial", "Georgia"
+	font-size: 50pt;
+	text-align: center;
+	
+	}
+	
+.right { float:right;
 
+        }
+#next_para {clear:right;
+
+			}
+			
+img { width:500px;
+	height: 300px;
+
+	}
+	
+figcaption { font-size: 10pt;
+			}
