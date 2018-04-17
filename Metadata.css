@@ -13,16 +13,19 @@ Intro to CSS Assignment
 
 /* Put body attributes here */
 
-body *{ 
-		background-color: teal;
-		color: white;
-		font-family: "Verdana","sans-serif", "Courier New"
+body {
+ 
+		background-color: antiquewhite;
+		color: navy;
+		font-family: "Verdana","sans-serif", "Courier New";
 		
 		}
 		
-h1 { font-family: "Sans-serif","Arial", "Georgia"
+h1 { font-family:"Script","Roboto","Brush Script";
 	font-size: 50pt;
 	text-align: center;
+	background-color: lightcoral;
+	color:navy;
 	
 	}
 	
