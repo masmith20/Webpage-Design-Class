@@ -1,0 +1,31 @@
+/* Maria Smith
+	CSS for GirlDevelopIt project
+	Due: 4/24/18
+*/
+
+h1 { text-align: center;
+}
+
+h2 {font-family: Cursive, Helvetica, Courier;
+	text-decoration:underline;
+
+}	
+ 
+body { background-color: antiquewhite;
+	   font-family: Arial, Sans-serif, Courier;
+}
+
+.right {float: right;}
+
+#next_para {clear:right;}
+
+a:focus, a:hover { color: deeppink;
+					text-decoration: underline;
+					font-size: 25pt;
+				}
+
+
+#logo { height: 500px;
+		weight: 500 px;
+}
+
