@@ -1,0 +1,74 @@
+padding, margin {0,0}
+
+/*Maria Smith
+Endangered Species Project CSS
+Due 5/10 */
+
+/*Align the h1 center and the h2 to the left!
+
+	Make sure to put pictures on borders, can also put headers in borders too
+	
+	NEED TO HAVE LINE OF PICTURES IN BODY
+	
+	Border on the bottom of h1 to create line look*/
+	
+*{background-color: antiquewhite;}
+
+h1 {text-align:center;
+	font-size: 36pt;
+	border-bottom: 3px solid brown;  /*border only on the bottom to create line-look*/
+	margin-bottom:10px;
+	padding-bottom:15px;
+}
+
+h1,h2 {font-family: "Arial Black", Palantino, Seriff;}
+
+main {font-family: "Trebuchet MS", Arial, Seriff;
+	  font-size:15pt;}
+
+.deer {clear:left;
+	height:180px;
+	width: 250px; 
+	border:5px solid yellow;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 0px 0px 0px;
+	}
+/*  .deer are the pictures that are in a line */
+	
+
+.left {float:left;
+	height:300px;
+	width:370px;
+	border:5px dotted yellow;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	}
+/*first picture */
+	
+.right {float:right;
+	height:250px;
+	width: 315px; 
+	border:5px dotted yellow;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 0px 0px 0px;}
+/*second picture*/
+
+footer {clear:right;
+		border-top:3px solid brown;
+		margin-top: 10px;
+		padding-top: 15px;
+		font-family: "Trebuchet MS", Arial, Seriff;}
+ /*border only on the top to create line-look*/
+
+a:focus, a:hover { color: yellow;
+					text-decoration: underline;
+					font-size: 25pt;
+				}
+		
+#end {text-align:right;}
+
+
+
+	
+
+
