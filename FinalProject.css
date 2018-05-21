@@ -1,0 +1,91 @@
+/*Maria Smith
+  Webpage Design Final Project
+  Due: 5/25/18 */
+  
+*{margin, padding: 0, 0;}
+
+body {
+    width: 98%;
+    background-color: mistyrose;
+    font-family:"Trebuchet MS", "Arial Black", Sans-seriff;
+}
+
+h1 {
+    padding: 10px;
+    text-align: Center;
+    font-size: 36pt;
+    text-decoration:overline underline;
+    font-family:  Blippo,"Trebuchet MS", "Arial Black";
+}
+
+h2 {text-align: center; 
+	}
+
+header {
+    border-bottom: 2px solid thistle;
+    background-color: thistle;
+}
+
+#sidebarA /*This is the "Facts" section*/
+{
+    width: 20%;
+    height: 900px;
+    float:left ;
+    border-right: 2px solid thistle;
+    padding-right: 10px;
+    margin-right:10px;
+    background-color:aliceblue;
+}
+
+main/*This is the middle section*/{
+    width: 55%;
+    height: 900px;
+    float: left;
+    background-color:mistyrose;
+    }
+
+#sidebarB /*This is the right, inventions section*/
+{
+    width: 20%;
+    height: 900px;
+    float: right;
+    border-left: 2px solid thistle;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color:aliceblue;
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid thistle;
+    background-color:mistyrose;
+}
+
+.tabitha /*This includes the two pictures in the side sections*/
+{height:275px;
+		width: 250px; 
+		border:4px solid thistle;
+		margin: 5px 15px 5px 15px;
+		padding: 0px 0px 0px 0px;
+		}
+		
+
+
+figcaption /*font size for fig captions to make them smaller than regular text*/ {font-size:10pt;}
+		
+#wheel /*image of the spinning wheel*/{height:275px;
+		width: 250px; 
+		border:4px solid thistle;
+		}
+
+#left /*figure that the image of the spinning wheel is in*/ 
+{float:left;
+		font-size: 10pt;}
+
+#saw /*Picture of the Circular Saw*/ {height:300px;
+		width: 350px; 
+		border:4px solid thistle;}
+
+#right /*figure that the circular saw image is in */ {float:right;}
+
+#end /* "This text is reproduced for educational purposes only"*/ {text-align:right;}
